@@ -5,6 +5,7 @@
     <title>HTML Assessment for SkillDistillery</title>
   </head>
   <body>
+
 <h2>Text</h2>
 <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -15,9 +16,17 @@
 
 <h2>Table</h2>
 <table>
-<tr> <th>Team Name</th> <th>First Half</th> <th>Second Half</th></tr>
+<style>
+  table, th, td {
+      border: 1px solid orange;
+  }
+</style>
+
+  <th rowspan="2">Team Name</th>
+  <th colspan="2">First Half</th>
+  <th colspan="2">Second Half</th>
+
 <tr>
-  <td></td>
   <td>Q1</td>
   <td>Q2</td>
   <td>Q3</td>
@@ -25,10 +34,64 @@
 </tr>
 <tr>
   <td>Denver</td>
+  <td>7</td>
+  <td>3</td>
+  <td>0</td>
+  <td>7</td>
 </tr>
-
+<tr>
+  <td>Chicago</td>
+  <td>3</td>
+  <td>3</td>
+  <td>0</td>
+  <td>7</td>
+</tr>
+<tr>
+  <tfoot>
+    Not sure what game this is, but boy did we win!
+  </tfoot>
+</tr>
 </table>
+<caption>Yay sportsball!</caption>
 
+<h2>List</h2>
+<ul>
+  <img src="TW_orange.jpg" alt="Denver Broncos Logo" style="width:200px;height:100px">
+  <li><a href="http://www.denverbroncos.com/">Denver Broncos</a></li>
+    <ul>
+      <li>Quarterbacks</li>
+      <ol>
+        <li>Osweiler, Brock</li>
+        <li>Siemian, Trevor</li>
+        <li>Lynch, Paxton</li>
+      </ol>
+      <li>Defense</li>
+      <ol>
+        <li>Gotsis, Adam</li>
+        <li>Harris, Shelby</li>
+        <li>Kerr, Zach</li>
+        <li>Walker, DeMarcus</li>
+        <li>Wolfe, Derek</li>
+      </ol></option>l>
+    </ul>
+  <img src="chicago-bears-logo.jpg" alt="Chicago Bears Logo" style="width:200px;height:100px">
+  <li><a href="http://www.chicagobears.com/">Chicago Bears</a></li>
+  <ul>
+    <li>Quarterbacks</li>
+    <ol>
+      <li>Glennon, Mike</li>
+      <li>Sanchez, Mark</li>
+      <li>Trubisky, Mitchell</li>
+    </ol>
+      <li>Defense</li>
+      <ol>
+        <li>Bullard, Jonathan</li>
+        <li>Hicks, Akiem</li>
+        <li>Robertson-Harris, Roy</li>
+        <li>Unrein, Mitch</li>
+      </ol>
+  </ul>
+</ul>
 
   </body>
 </html>
