@@ -4,10 +4,8 @@ Unit 2, Week 1.
 
 HTML Assessment
 
-Use the text editor of your choice to create a new file, assessment.html, with a correctly structured HTML document skeleton including a document title. Inside of this document you are going to be adding elements with their respective section headers, demonstrating your knowledge of basic HTML markup.
 
-An example of the finished product can be found here. Note it is not very good looking, that's where CSS will come into play!!*
-Add a second-level section header "TEXT", and under it three paragraphs. The second paragraph should be formatted as a block quotation and emphasized. The first word of each paragraph should be in bold.
+
 Add another section header with the title "TABLE" with data to simulate a game score for the Broncos. Creating a table similar to the one shown below, using both colspan and rowspan attributes. Don't worry about styling it, just lay out a table that follows the pattern. Give the table a header, footer, and caption.
 HTML Table
 
